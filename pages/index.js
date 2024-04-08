@@ -58,7 +58,7 @@ export default function Home({ allPostsData, allInternshipsData }) {
         </div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Blogs and Articles</h2>
         <ul className={utilStyles.list}>
         {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -67,8 +67,14 @@ export default function Home({ allPostsData, allInternshipsData }) {
             <small className={utilStyles.lightText}>
               <Date dateString={date} />
             </small>
+            <br/>
           </li>
           ))}
+            <Link target='_blank' href={`https://medium.com/@aaronphilip2003/spotify-playlist-automation-ae1546120bd2`}>Spotify Playlist Automation</Link>
+            <br/>
+            <small>
+              <Date dateString="2023-08-28" />
+            </small>
         </ul>
       </section>
     </Layout>
