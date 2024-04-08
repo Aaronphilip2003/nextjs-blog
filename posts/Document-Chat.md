@@ -59,5 +59,5 @@ For any inquiries or feedback, please contact the project team at [aaronphilip20
 
 ---
 **Project Team**: 
-- Aaaron Philip and Neeraj Varma (Project Lead)
+- Aaron Philip and Neeraj Varma (Project Lead)
 - Dr. Sanket Salvi (Faculty Advisor)
