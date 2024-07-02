@@ -3,9 +3,10 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import ChatComponent from './ChatComponent';
 
 const name = 'Aaron Philip';
-export const siteTitle = "Aaron's Blog";
+export const siteTitle = "Aaron's Portfolio";
 
 export default function Layout({ children, home }) {
   return (
@@ -64,6 +65,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
+      <ChatComponent />
     </div>
   );
 }
