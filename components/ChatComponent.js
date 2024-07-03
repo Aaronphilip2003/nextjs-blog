@@ -56,9 +56,9 @@ const ChatComponent = () => {
   return (
     <div className="fixed bottom-4 right-4 flex flex-col items-end z-50">
       {isOpen && (
-        <div className="w-96 h-[600px] bg-white shadow-lg rounded-lg flex flex-col">
+        <div className="lg:w-96 h-[550px] sm:h=[550px] bg-white shadow-lg rounded-lg flex flex-col">
           <div className="p-4 border-b border-gray-200 flex justify-between items-center">
-            <h2 className="text-lg font-semibold">Chat</h2>
+            <h2 className="text-lg font-semibold">Chat ( Takes 30s initially )</h2>
             <button onClick={toggleChatWindow} className="focus:outline-none">Close</button>
           </div>
           <div className="flex-1 p-4 overflow-auto">
