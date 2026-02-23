@@ -65,7 +65,7 @@ export default function Layout({ children, home }) {
           <Link href="/">← Back to home</Link>
         </div>
       )}
-      <ChatComponent />
+      {/* <ChatComponent /> */}
     </div>
   );
 }

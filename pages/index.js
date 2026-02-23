@@ -33,10 +33,10 @@ export default function Home({ allPostsData, allInternshipsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hey, I'm Aaron. I am a Student and Developer in my third year of Computer Science Engineering. Talk to my chatbot down to ask about my Résumé, skillset and professional work!</p>
+        <p>Hey, I'm Aaron. I am an AI Developer specializing in the healthcare domain. I have almost a year of experience working and delivering for clients (Amgen, Alexion, Astrazeneca) in the US healthcare and Pharma industry. I have also worked on Observability of Systems and sessions for banks like HDFC, ICICI and Bajaj.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={`${utilStyles.headingLg} font-bold`}>Internships and Other Work</h2>
+        <h2 className={`${utilStyles.headingLg} font-bold`}>Work that I have done</h2>
         <div className={styles.container}> {/* Use styles.container to apply the CSS */}
           {allInternshipsData.map(({ id, date, company, role, description, end }) => (
             <div className={styles['timeline-block']} key={id}> {/* Use styles['timeline-block'] to apply the CSS */}
